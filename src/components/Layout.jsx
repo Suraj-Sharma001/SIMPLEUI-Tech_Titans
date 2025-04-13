@@ -24,6 +24,8 @@ function Layout({ children }) {
     if (found) {
       navigate(found.path);
       setSearch('');
+    } else {
+      alert('Component not found!');
     }
   }
 
@@ -40,7 +42,7 @@ function Layout({ children }) {
 
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col font-bold">
       <nav className="gui-navbar gui-gap-1">
         
         <div className={`gui-nav ${menuOpen ? 'show' : ''}`}>

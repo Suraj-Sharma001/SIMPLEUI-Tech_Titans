@@ -33,6 +33,16 @@
     font-size: var(--gui-font-lg);
 }
 
+.gui-auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+
 .gui-auth-footer {
     display: flex;
     text-align: center;

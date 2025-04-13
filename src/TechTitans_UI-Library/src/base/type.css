@@ -1,13 +1,29 @@
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0.5rem;
   }
+
+  .gui-text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .gui-font-bold {
+    font-weight: 700;
+  }
+  
+  .gui-text-gray {
+    color: var(--text-muted);
+  }
+  
+
   p {
     margin-bottom: 1rem;
     font-size: var(--gui-font-md);
     line-height: 1.6;
   }
+
     a {
         color: var(--gui-primary);
         text-decoration: none;

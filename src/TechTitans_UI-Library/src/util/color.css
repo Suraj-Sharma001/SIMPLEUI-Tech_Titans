@@ -2,12 +2,16 @@
     color : var(--gui-primary)
 }
 
-.text-sec {
+.text-secondary {
     color: var(--gui-secondary);
 }
 
 .text-success {
     color: var(--gui-success);
+}
+
+.text-gray {
+    color: rgb(228, 55, 55);
 }
 
 .text-danger {
@@ -36,5 +40,10 @@
 
 .bg-warning {
     background-color: var(--gui-warning);
+    color: black;
+}
+
+.bg {
+    background-color: rgb(112, 112, 201);
     color: black;
 }

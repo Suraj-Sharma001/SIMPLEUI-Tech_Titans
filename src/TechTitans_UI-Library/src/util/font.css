@@ -1,0 +1,39 @@
+.gui-text-sm {
+  font-size: 0.7rem;
+}
+
+.gui-text {
+  font-size: 1rem;
+}
+
+.gui-text-lg {
+  font-size: 1.125rem;
+}
+
+.gui-text-xl {
+  font-size: 1.25rem;
+}
+
+.gui-font-light {
+  font-weight: 200;
+}
+
+.gui-font-normal {
+  font-weight: 400;
+}
+
+.gui-font-medium {
+  font-weight: 500;
+}
+
+.gui-font-semibold {
+  font-weight: 600;
+}
+
+.gui-font-bold {
+  font-weight: 700;
+}
+
+.gui-font-black {
+  font-weight: 900;
+}

@@ -8,15 +8,15 @@ function ComponentPage({ title, description, code, children }) {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-2">{title}</h1>
-      <p className="text-gray-600 mb-4">{description}</p>
+      <h1 className="gui-text-3xl gui-font-bold mt-3 ml-3 display-flex">{title}</h1>
+      <p className="text-gray ml-3">{description}</p>
 
-      <div className="mb-6 p-4 border rounded bg-gray-50">
+      <div className="ml-3 pl-3 border rounded bg-warning-50">
         {children}
       </div>
 
-      <pre className="language-html">
-        <code className="language-html">{code}</code>
+      <pre className="language-html ml-3">
+        <code className="language-html ">{code}</code>
       </pre>
     </div>
   );
