@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
-import './css_ui/src/style.css';
+import './TechTitans_UI-Library/src/style.css';
 import 'prismjs/themes/prism.css';  
 import './App.css'
 

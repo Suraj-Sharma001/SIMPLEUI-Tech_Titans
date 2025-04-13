@@ -8,8 +8,7 @@ import Auth from './pages/Auth';
 import Utilities from './pages/Utilities';
 
 function App() {
-  return (  
-    <>
+  return (
     <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +19,6 @@ function App() {
         <Route path="/utilities" element={<Utilities />} />
       </Routes>
     </Layout>
-    </>
   );
 }
 
