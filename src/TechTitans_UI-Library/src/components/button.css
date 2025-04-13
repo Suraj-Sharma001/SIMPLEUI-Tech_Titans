@@ -1,0 +1,31 @@
+.gui-btn {
+    padding: 0.5rem 1.1rem;
+    cursor: pointer;
+    border-radius: var(--gui-radius);
+    font-size: var(--gui-font-md);
+    transition: background  0.2s ease-in-out;
+}
+
+.gui-btn-primary {
+    background-color: var(--gui-primary);
+    color: white;       
+}
+
+.gui-btn-secondary {
+    background-color: var(--gui-secondary);
+    color: white;       
+}
+
+.gui-btn-success {
+    background-color: var(--gui-success);
+    color: white;
+}
+
+.gui-btn-danger {
+    background-color: var(--gui-danger);
+    color: white;
+}
+
+.gui-btn-hover {
+    opacity: 1;
+}

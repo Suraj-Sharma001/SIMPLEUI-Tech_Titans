@@ -1,0 +1,9 @@
+/* dark-mode */
+.dark {
+    --gui-primary: #818cf8;
+    --gui-secondary: #9403b8;
+    --gui-success: green;
+    --gui-danger: red;
+    color: white;
+    background-color: rgb(23, 22, 22);
+}

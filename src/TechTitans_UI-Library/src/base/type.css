@@ -1,0 +1,15 @@
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-bottom: 1rem;
+    font-size: var(--gui-font-md);
+    line-height: 1.6;
+  }
+    a {
+        color: var(--gui-primary);
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }  

@@ -1,0 +1,20 @@
+.gui-alert {
+    padding: var(--gui-spacing-sm);
+    border-radius: var(--gui-radius);
+    margin: 1rem 0;
+}
+
+.gui-alert-success {
+    background-color: var(--gui-success);
+    color: white;
+}
+
+.gui-alert-danger {
+    background-color: var(--gui-danger);
+    color: white;
+}
+    
+.gui-alert-warning {
+    background-color: var(--gui-warning);
+    color: black;
+}

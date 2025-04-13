@@ -1,0 +1,31 @@
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.item-centre {
+    align-items: center;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-1 {
+    gap: var(--gui-spacing-sm);
+}
+
+.gap-2 {
+    gap: var(--gui-spacing-md);
+}
+
+.gap-3 {
+    gap: var(--gui-spacing-lg)
+}

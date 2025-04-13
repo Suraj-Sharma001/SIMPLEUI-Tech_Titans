@@ -1,0 +1,13 @@
+.gui-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.gui-input {
+    width: 100%;
+    padding: 0.4rem;
+    border: 1px sold rgb(197, 185, 185);
+    border-radius: var(--gui-radius);
+    font-size: var(--gui-font-md);
+}

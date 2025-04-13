@@ -1,0 +1,16 @@
+:root {
+    --gui-primary: #4f46e5;
+    --gui-secondary: #64788b;
+    --gui-success: rgb(32, 128, 32);
+    --gui-danger: red;
+    --gui-warning: yellow;
+
+    --gui-font-sm: 0.875rem;
+    --gui-font-md: 1rem;
+    --gui-font-lg: 1.25rem;
+
+    --gui-radius: 0.5rem;
+    --gui-spacing-sm: 0.6rem;
+    --gui-spacing-md: 1rem;
+    --gui-spacing-lg: 1.6rem;
+}

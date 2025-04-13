@@ -1,0 +1,19 @@
+.gui-nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: white;
+    background: var(--gui-primary);
+    padding: var(--gui-spacing-sm) var(--gui-spacing-md);
+}
+
+.gui-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: var(--gui-spacing-md);
+}
+
+.gui-nav-logo {
+    font-weight: bold;
+    font-size: var(--gui-font-lg);
+}

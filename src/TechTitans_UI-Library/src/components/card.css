@@ -1,0 +1,23 @@
+.gui-card {
+    background: rgb(219, 207, 207);
+    border-radius: var(--gui-radius);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: var(--gui-spacing-md);
+    max-width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gui-card:hover {
+    transform: translateY(-5px);
+}
+
+.gui-card-title {
+    font-size: var(--gui-font-lg);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.gui-card-body {
+    font-size: var(--gui-font-md);
+}
+

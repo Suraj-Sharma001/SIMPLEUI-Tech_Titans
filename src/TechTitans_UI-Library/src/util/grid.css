@@ -1,0 +1,7 @@
+.grid-gap-1 {
+    gap: var(--gui-spacing-sm)
+}
+
+.grid-gap-2 {
+    gap: var(--gui-spacing-md)
+}

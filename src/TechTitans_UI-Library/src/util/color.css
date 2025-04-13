@@ -1,0 +1,40 @@
+.text-primary  {
+    color : var(--gui-primary)
+}
+
+.text-sec {
+    color: var(--gui-secondary);
+}
+
+.text-success {
+    color: var(--gui-success);
+}
+
+.text-danger {
+    color: var(--gui-danger);
+}
+
+.bg-primary {
+    background-color: var(--gui-primary);
+    color: white;
+}
+
+.bg-secondary {
+    background-color: var(--gui-secondary);
+    color: white;
+}
+
+.bg-success {
+    background-color: var(--gui-success);
+    color: white;
+}
+
+.bg-danger {
+    background-color: var(--gui-danger);
+    color: white;
+}
+
+.bg-warning {
+    background-color: var(--gui-warning);
+    color: black;
+}
