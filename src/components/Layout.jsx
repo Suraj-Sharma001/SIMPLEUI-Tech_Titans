@@ -55,7 +55,7 @@ function Layout({ children }) {
             </Link>
           ))}
           <span
-            className="cursor-pointer text-xl ml-2 text-gray-500 hover:text-gray-700 transition-colors"
+            className="" style={{cursor: "pointer"}}
             onClick={() => setDarkMode(!darkMode)}
             title={darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
           >
