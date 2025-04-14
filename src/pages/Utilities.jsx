@@ -101,7 +101,35 @@ function Utilities() {
 />
 
 {/* yha pe */}
-
+<UtilityParts
+  title="Grid"
+  demo={
+    <>
+    <div className="gui-grid grid-cols-3 grid-gap-2 gui-border p-2">
+      <div className="bg-primary p-2">1</div>
+      <div className="bg-secondary p-2">2</div>
+      <div className="bg-success p-2">3</div>
+    </div>
+    <div className="gui-grid grid-cols-2 grid-gap-2 gui-border p-2">
+    <div className="bg-primary p-2">1</div>
+    <div className="bg-secondary p-2">2</div>
+    <div className="bg-success p-2">3</div>
+  </div>
+  </>
+    
+  }
+  code={`<div class="gui-grid grid-cols-3 grid-gap-2 gui-border p-2">
+  <div class="bg-primary p-2">1</div>
+  <div class="bg-secondary p-2">2</div>
+  <div class="bg-success p-2">3</div>
+</div>
+<div class="gui-grid grid-cols-2 grid-gap-2 gui-border p-2">
+  <div class="bg-primary p-2">1</div>
+  <div class="bg-secondary p-2">2</div>
+  <div class="bg-success p-2">3</div>
+</div>
+`}
+/>
 
     </ComponentPage>
   );
