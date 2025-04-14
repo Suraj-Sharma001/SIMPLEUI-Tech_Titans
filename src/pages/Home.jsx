@@ -9,12 +9,12 @@ function Home() {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1 className="home-title">Welcome to GUI Framework</h1>
+        <h1 className="home-title">Welcome to SimpleUI</h1>
         <p className="home-subtitle">The modern UI toolkit for building beautiful, responsive web applications</p>
       </header>
 
       <section className="section-features">
-        <h2 className="title-mid">Why Choose Our Framework?</h2>
+        <h2 className="title-mid">Why To Choose Our Framework?</h2>
         <div className="features-map">
           {features.map((feature, index) => (
             <div className="feature-box" key={index}>
@@ -28,7 +28,7 @@ function Home() {
       <section className="section-about">
         <h2 className="title-lower">Built by Team Tech-Titans</h2>
         <p className="desc">
-          Inspired by the best design systems like Bootstrap, but reimagined for modern web development.
+          Inspired by the best design systems frameworks like Bootstrap and Tailwind, but reimagined for modern web development.
           Our framework provides everything you need to create stunning user interfaces with minimal effort.</p>
       </section>
     </div>

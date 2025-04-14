@@ -10,8 +10,8 @@
     color: var(--gui-success);
 }
 
-.text-gray {
-    color: rgb(228, 55, 55);
+.text-pink {
+    color: rgb(212, 9, 145);
 }
 
 .text-danger {
@@ -21,6 +21,10 @@
 .bg-primary {
     background-color: var(--gui-primary);
     color: white;
+}
+
+.bg-gray {
+    background-color: gray;
 }
 
 .bg-secondary {

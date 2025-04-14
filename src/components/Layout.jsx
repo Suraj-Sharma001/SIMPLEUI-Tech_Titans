@@ -29,7 +29,7 @@ function Layout({ children }) {
     }
   }
 
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     if(darkMode) {

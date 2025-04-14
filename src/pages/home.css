@@ -5,11 +5,11 @@
 }
 
 .home-header {
-    background-color: #23272f;
+    background-color: #792b88;
     text-align: center;
     margin-bottom: 4rem;
     padding: 3% 1%;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 30px rgba(160, 115, 115, 0.25);
     border-radius: 10px;
 }
 
@@ -22,7 +22,7 @@
 
 .title-mid {
     font-size: 2.5rem;
-    color: #4f46e5;
+    color: #2c24bd;
     margin-bottom: 3rem;
     font-weight: 700;
     text-align: center;
@@ -46,12 +46,12 @@
 }
 
 .feature-box {
-    background-color: #23272f;
+    background-color: #c467a0;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 100);
 }
-
+    
 .feature-title {
     font-size: 1.25rem;
     margin-bottom: 0.75rem;
@@ -63,7 +63,7 @@
 }
 
 .section-about {
-    background-color: #23272f;
+    background-color: #b33f66;
     text-align: center;
     padding: 3rem 2rem;
     border-radius: 12px;

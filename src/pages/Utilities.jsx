@@ -8,56 +8,97 @@ function Utilities() {
       <UtilityParts
         title="Colors"
         demo={
-          <div className="gui-flex gui-gap-2 gui-flex-wrap">
-            <div className="text-primary gui-font-bold gui-p-4 gui-rounded">Primary</div>
-            <div className="text-secondary gui-font-bold gui-p-4 gui-rounded">Secondary</div>
-            <div className="text-success gui-font-bold gui-p-4 gui-rounded">Success</div>
-            <div className="text-danger gui-font-bold gui-p-4 gui-rounded">Danger</div>
+          <div className="gap-2 pb-2 flex">
+            <div className="text-primary gui-font-bold">Primary</div>
+            <div className="text-secondary gui-font-bold">Secondary</div>
+            <div className="text-success gui-font-bold ">Success</div>
+            <div className="text-danger gui-font-bold">Danger</div>
           </div>
         }
-        code={` <div className="text-primary gui-font-bold gui-p-4 gui-rounded">Primary</div>
- <div className="text-secondary gui-font-bold gui-p-4 gui-rounded">Secondary</div>
- <div className="text-success gui-font-bold gui-p-4 gui-rounded">Success</div>
- <div className="text-danger gui-font-bold gui-p-4 gui-rounded">Danger</div>`}
+        code={`  <div className="text-primary gui-font-bold">Primary</div>
+  <div className="text-secondary gui-font-bold">Secondary</div>
+  <div className="text-success gui-font-bold ">Success</div>
+  <div className="text-danger gui-font-bold">Danger</div>`}
       />
 
-      <UtilityParts
-        title="Flex"
+    <UtilityParts
+        title="Flex Row"
         demo={
-          <div className="gui-flex gui-justify-between gui-p-4 gui-border">
-            <span>Left</span>
-            <span>Right</span>
+          <div className="flex-row flex-wrap gap-2 gui-border p-4 flex">
+            <div className="bg-primary p-2">Item 1</div>
+            <div className="bg-secondary p-2">Item 2</div>
+            <div className="bg-success p-2">Item 3</div>
           </div>
         }
-        code={`<div class="gui-flex gui-justify-between gui-p-4 gui-border">
-  <span>Left</span>
-  <span>Right</span>
+        code={`<div className="flex-row flex-wrap gap-2 gui-border p-4 flex">
+  <div className="bg-primary p-2">Item 1</div>
+  <div className="bg-secondary p-2">Item 2</div>
+  <div className="bg-success p-2">Item 3</div>
 </div>`}
       />
 
       <UtilityParts
-        title="Spacing"
+        title="Flex Column with Center"
         demo={
-          <div className="gui-p-4 gui-m-4 gui-bg-gray-200 gui-rounded">
-            Box with padding and margin
+          <div className="flex-col item-centre gap-2 gui-border p-4 flex">
+            <div className="bg-primary p-2">Column 1</div>
+            <div className="bg-secondary gui-text-white p-2">Column 2</div>
           </div>
         }
-        code={`<div class="gui-p-4 gui-m-4 gui-bg-gray-200 gui-rounded">
-  Box with padding and margin
+        code={`<div class="flex-col item-centre gap-2 gui-border p-4 flex">
+  <div class="bg-primary p-2">Column 1</div>
+  <div class="bg-secondary p-2">Column 2</div>
 </div>`}
       />
 
       <UtilityParts
-        title="Typography"
+        title="Justify Centre"
         demo={
-          <>
-            <p className="gui-text-lg gui-font-medium">This is large text with medium weight.</p>
-            <p className="gui-text-sm gui-italic">This is small italic text.</p>
-          </>
+          <div className="flex-row text-pink justify-centre gui-border p-4 flex">
+            <span>Centered Text</span>
+          </div>
         }
-        code={`<p class="gui-text-lg gui-font-medium">Large text</p>
-<p class="gui-text-sm gui-italic">Small italic text</p>`}
-      />
+        code={`<div class="flex-row text-pink justify-centre gui-border p-4 flex">
+  <span>Centered Text</span>
+</div>`}
+/>
+
+<UtilityParts
+  title="Typography"
+  demo={
+    <>
+      <p className="gui-text-sm gui-font-light">Small and Light Text</p>
+      <p className="gui-text gui-font-normal">Normal Text</p>
+      <p className="gui-text-lg gui-font-semibold">Large and Semibold Text</p>
+      <p className="gui-text-xl gui-font-black">Extra large and Bold Text</p>
+    </>
+  }
+  code={`<p class="gui-text-sm gui-font-light">Small and Light Text</p>
+<p class="gui-text gui-font-normal">Normal Text</p>
+<p class="gui-text-lg gui-font-semibold">Large and Semibold Text</p>
+<p class="gui-text-xl gui-font-black">Extra large and Bold Text</p>`}
+/>
+
+<UtilityParts
+  title="Spacing"
+  demo={
+    <>
+      <div className="p-3 m-2 gui-border bg-gray">
+        Box with Margin and Padding 
+      </div>
+      <div className="pb-3 mt-2 gui-border bg-gray">
+        Box with padding butom and margin top
+      </div>
+      <p className='pl-3 text-success'>And more....</p>
+    </>
+  }
+  code={`<div className="p-3 m-2 gui-border bg-gray">
+   Box with Margin and Padding 
+</div>
+<div className="pb-3 mt-2 gui-border bg-gray">
+  Box with padding butom and margin top
+</div>`}
+/>
 
     </ComponentPage>
   );

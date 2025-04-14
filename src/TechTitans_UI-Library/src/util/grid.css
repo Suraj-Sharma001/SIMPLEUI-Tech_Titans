@@ -5,3 +5,9 @@
 .grid-gap-2 {
     gap: var(--gui-spacing-md)
 }
+
+.gui-border {
+    border: 1px solid var(--gui-border-color, #ccc);
+    border-radius: var(--gui-radius);
+  }
+  
